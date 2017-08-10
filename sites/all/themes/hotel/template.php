@@ -7,7 +7,6 @@
 require_once drupal_get_path('theme', 'hotel') . '/inc/preprocess_functions.inc';
 
 function hotel_preprocess_html(&$vars) {
-	drupal_set_message("hi");
   $node_id = drupal_lookup_path('source','page-404');
   if(!empty($node_id)) {
     $parts = explode("/", $node_id);
