@@ -17,13 +17,13 @@ foreach($results as $res){
 	if (isset($res->field_field_property_images[0]['raw']['uri'])){
 		//drupal_set_message('<pre>'.print_r($res->field_field_property_images[0]['raw']['uri'], 1).'</pre>');
 		$uri = $res->field_field_property_images[0]['raw']['uri'];
-		$img .= l(theme('image_style', array('style_name' => 'img_219_130', 'path' => $uri)), 'node/'.$res->nid, array('html' => TRUE)); 
+		$img .= l(theme('image_style', array('style_name' => '220x190', 'path' => $uri)), 'node/'.$res->nid, array('html' => TRUE)); 
 	}
 	$output .= $img;
 	$rest_info = "<div class='other-info'>";
 	$title = "<h2>" . l($res->node_title, 'node/'.$res->nid) . "</h2><div class=''clearfix></div>";
 	$rest_info .= $title;
-	$more_info = "<div class='info-dls'>";
+	$more_info = "<div class='info-dls clearfix'>";
 	$more_info .= "<div class='inforow clearfix'>";
 	$more_info .= "<div class='infodata'><small>Price</small><span>".$res->field_field_price[0]['rendered']['#markup']."</span></div>";
 	$more_info .= "<div class='infodata'><small>Location</small><span>".$res->field_field_location[0]['rendered']['#markup']."</span></div>";
