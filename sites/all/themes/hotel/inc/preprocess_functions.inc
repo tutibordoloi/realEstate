@@ -24,8 +24,11 @@ function hotel_preprocess_views_view_fields(&$vars) {
 function hotel_css_alter(&$css) {
   global $theme_key;
   $skin = theme_get_setting('skin');
+  //$nucleus_skin = 'orange';
   if (isset($_COOKIE['nucleus_skin'])) {
     if ($_COOKIE['nucleus_skin'] != $skin) {
+	//Always orange will be used
+	//$nucleus_skin = 'orange';
       $nucleus_skin = $_COOKIE['nucleus_skin'];
       if (!empty($nucleus_skin) && file_exists(drupal_get_path('theme', $theme_key) . "/skins/" . $nucleus_skin . "/style.css")) {
         $css = drupal_add_css(drupal_get_path('theme', $theme_key) . "/skins/" . $nucleus_skin . "/style.css", array(
