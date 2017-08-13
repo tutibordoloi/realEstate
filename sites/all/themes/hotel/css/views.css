@@ -302,3 +302,146 @@ span.button input.form-submit:active {
 .checkout-review .pane-title {
   color: #c07326;
 }
+/*page view*/
+.clearfix {
+	clear: both;
+}
+.view-property-view-homepage .rows{
+    position: relative;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,.15);
+    border-radius: 3px;
+    overflow: hidden;
+    height: 190px;
+}
+.view-property-view-homepage .rows a {
+	position: absolute;
+}
+.view-property-view-homepage .rows a img{
+    height: 190px;
+}
+.view-property-view-homepage .rows .other-info {
+    position: absolute;
+    left: 24%;
+	width: 76%;
+}
+.view-property-view-homepage .rows .other-info h2{
+	margin: 0;
+    width: 100%;
+    float: left;
+    min-height: 24px;
+}
+.view-property-view-homepage .rows .other-info .info-dls  {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+.view-property-view-homepage .rows .other-info .info-dls .inforow {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    float: left;
+    background: #fafbff;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.view-property-view-homepage .rows .other-info .info-dls .inforow .infodata{
+    width: 30.3%;
+    float: left;
+    border-right: 1px solid #eee;
+    padding: 10px;
+}
+
+.view-property-view-homepage .rows .other-info .info-dls .inforow .infodata small{
+    display: block;
+    color: #999;
+    font-size: 12px;
+}
+.view-property-view-homepage .rows .other-info .info-dls .infosubrow {
+	    width: 100%;
+    padding: 10px 0;
+    position: relative; 
+}
+.view-property-view-homepage .rows .other-info .info-dls .infosubrow .infoowner{
+    width: 100%;
+    float: left;
+}
+.view-property-view-homepage .rows .other-info .info-dls .infosubrow .infoowner .infownertext{
+	width: auto;
+    max-width: 80%;
+    float: left;
+}
+.view-property-view-homepage .rows .other-info .info-dls .infosubrow .infoowner .infownertext>p {
+    font-size: 12px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    margin-top: 4px;
+    color: #666;
+}
+.view-property-view-homepage .rows .other-info .info-dls .infosubrow .infoowner .infownertext>p>span {
+    text-transform: uppercase;
+    color: #999;
+}
+
+.view-property-view-homepage .rows .other-info .info-dls .infosubrow .infoowner .infownertext>small {
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 4px;
+    font-weight: 700;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.view-property-view-homepage .rows .other-info .info-dls .infosubrow .tilebtn{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: auto;
+    float: right;
+}
+.view-property-view-homepage .rows .other-info .info-dls .infosubrow .tilebtn a{
+    right: 110px;
+    width: 65%;
+    top: 7px;
+}
+.view-property-view-homepage .rows .other-info .info-dls .infosubrow .tilebtn .tilecontactbtn{
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    min-width: 100px;
+    padding: 7px 10px;
+    border-radius: 0;
+    background: #f59000;
+    color: #fff;
+    line-height: 22px;
+    font-size: 13px;
+    border: 0 solid #fe943e;
+    outline: none;
+    box-shadow: none;
+    transition: all .3s ease;
+}
+.view-property-view-homepage .views-exposed-form .views-widget-filter-field_bhk_tid {
+    float: left;
+    margin-right: 15px;
+}
+.view-property-view-homepage .views-exposed-form .views-widget-filter-field_bhk_tid label{
+    float: left;
+    padding: 14px 10px 0 0;
+}
+.view-property-view-homepage .views-exposed-form .views-widget-filter-field_bhk_tid .views-widget{
+    float: left;
+}
+.view-property-view-homepage .views-exposed-form .views-widget-filter-field_bhk_tid .views-widget select{
+	min-width: 120px;
+}
+.view-property-view-homepage .views-exposed-form .views-submit-button {
+    float: left;
+    padding: 5px 0 0 0;
+}
+.view-property-view-homepage form{
+    margin-bottom: 30px;
+}
